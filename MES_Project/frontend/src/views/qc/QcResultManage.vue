@@ -1,9 +1,9 @@
 <script setup>
 import { onMounted } from 'vue';
-import QcResultBasicInfo from '../../components/qc/005/QcResultBasicInfo.vue';
-import QcResultInstructionInfo from '../../components/qc/005/QcResultInstructionInfo.vue';
-import QcResultItemTable from '../../components/qc/005/QcResultTable.vue';
-import QcSelectModal from '../../components/qc/005/QcSelectModal.vue';
+import QcResultBasicInfo from '../../components/qc/QcResult/QcResultBasicInfo.vue';
+import QcResultInstructionInfo from '../../components/qc/QcResult/QcResultInstructionInfo.vue';
+import QcResultItemTable from '../../components/qc/QcResult/QcResultTable.vue';
+import QcSelectModal from '../../components/qc/QcResult/QcSelectModal.vue';
 import { useQcAppService } from '../../service/qc/qcAppService';
 import { useToast } from 'primevue/usetoast';
 import { useConfirm } from 'primevue/useconfirm';

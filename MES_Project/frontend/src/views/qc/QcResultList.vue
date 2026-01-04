@@ -1,8 +1,8 @@
 <script setup>
-import QcListSearch from '@/components/qc/004/QcListSearch.vue';
-import QcListTable from '@/components/qc/004/QcListTable.vue';
+import QcListSearch from '@/components/qc/QcList/QcListSearch.vue';
+import QcListTable from '@/components/qc/QcList/QcListTable.vue';
 import { useQcAppService } from '../../service/qc/qcAppService';
-import QcSelectModal from '../../components/qc/004/QcSelectModal.vue';
+import QcSelectModal from '../../components/qc/QcList/QcSelectModal.vue';
 import { onMounted } from 'vue';
 
 const qcService = useQcAppService();
