@@ -214,13 +214,13 @@
 
 ```text
 frontend
-├── src
-│    ├── views
-│    │    ├── release
-│    │    │    ├── 📄 ForwardingApproval.vue        // 신청현황
-│    │    │    ├── 📄 ForwardingCheck.vue           // 담당자 권한 이전
-│    │    │    ├── 📄 ForwardingDetail.vue          // 이벤트 계획 승인 요청 목록
-│    │    │    ├── 📄 ForwardingManagement.vue      // 이벤트 결과 승인 요청 목록
+└── src
+     └── views
+          └── release
+               ├── 📄 ForwardingApproval.vue        // 신청현황
+               ├── 📄 ForwardingCheck.vue           // 담당자 권한 이전
+               ├── 📄 ForwardingDetail.vue          // 이벤트 계획 승인 요청 목록
+               └── 📄 ForwardingManagement.vue      // 이벤트 결과 승인 요청 목록
 ```
 ### MY Server Architecture
 
@@ -228,12 +228,12 @@ frontend
 backend
 ├── database
 │    ├── sqls
-│    │    ├── release
-│    │    │    ├── 📄 fwdSQL.js        // 출고파트 쿼리
+│    │    └── release
+│    │         └── 📄 fwdSQL.js        // 출고파트 쿼리
 ├── routers
 │    ├── release
-│    │    ├──📄 fwdRouter.js           // 출고파트 라우터
-├── services
-│    ├── release
-│    │    ├──📄 fwdService.js          // 출고파트 서비스
+│    │    └──📄 fwdRouter.js           // 출고파트 라우터
+└── services
+     └── release
+          └──📄 fwdService.js          // 출고파트 서비스
 ```
